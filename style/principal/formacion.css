@@ -1,0 +1,90 @@
+.seccion__formacion {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height:auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background: #0c1319;
+}
+
+
+.formacion__contenido {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content:center;
+}
+
+.titulo__formacion {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #0682e8;
+    font-family: 'Montserrat', sans-serif;
+}   
+
+.formacion__contenido-certificados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.certificados {
+    margin: 1rem;
+    flex-wrap: wrap;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.certificados__imagen {
+    background-image: url(../../img/img/alura.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 200px;
+}
+
+.certificados__descripcion {
+    width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.certificados__titulo{
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.certificados__link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.certificados__link:hover {
+    color: #0682e8;
+    transition: 0.4s ease-in-out;
+    text-decoration: underline;
+}
+
+@media screen and (max-width:767px) {
+    .formacion__contenido {
+        padding: 0;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .formacion__contenido {
+        padding: 0;
+        margin: auto;
+    }
+}

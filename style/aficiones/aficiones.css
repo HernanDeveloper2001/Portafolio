@@ -1,0 +1,87 @@
+.aficiones__contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10rem 0;
+}
+
+.aficiones__titulo {
+    font-size: 2.5rem;
+    color: #0682e8;
+    text-transform: uppercase;
+}
+
+.aficiones__contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.aficiones__carta {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 200px;
+    height: 200px;
+    margin:1.5rem;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.3);
+    transition: background-size 0.4s ease-in-out;
+    background-color: #0682e8;
+}
+
+.aficiones__carta:hover {
+    transition: .4s;
+    background-position:center ;
+    cursor:pointer;
+    background-size: 65%;
+    background-repeat: no-repeat;
+}
+
+.aficiones__carta h3 {
+    font-size: 1.2rem;
+    padding: .7rem;
+    color: #ffffff;
+}
+
+.aficiones__carta-imagen{
+    width: 50px;
+    height: 50px;
+    padding: 0 .7rem;
+}
+
+
+@media screen and (max-width:767px) {
+    .aficiones__contenido {
+        width: 90%;
+    }
+
+    .aficiones__contenedor {
+        width: 100%;
+    }
+
+    .aficiones__carta {
+        width: 100%;
+        margin: 1.5rem 0;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .aficiones__contenido {
+        margin: auto;
+    }
+
+    .aficiones__contenedor {
+        justify-content: center;
+    }
+
+    .aficiones__carta {
+        align-items: center;
+    }
+}

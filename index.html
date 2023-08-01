@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.css">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/normaize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/principal/header.css">
+    <link rel="stylesheet" href="./style/principal/presentacion.css">
+    <link rel="stylesheet" href="./style/principal/formacion.css">
+    <link rel="stylesheet" href="./style/principal/contacto.css">
+    <link rel="stylesheet" href="./style/principal/pie_de_pagina.css">
+    
+
+</head>
+<body>
+    <header class="header">
+        <section class="header__container">
+            <div class="contacto">
+                <h1 class="contacto-titulo">Programador WEB</h1>
+                <p class="contacto-parrafo">Correo:<span>hernandariocalvo@gmail.com</span></p>
+            </div>
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="index.html"><span class="activo">Inicio</span></a></li>  
+                    <li><a href="sobre_mi.html">Sobre mi</a></li>
+                    <li><a href="habilidades.html">Habilidades</a></li>
+                    <li><a href="aficiones.html">Aficiones</a></li>
+                    <li><a href="proyectos.html">Proyectos</a></li>  
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <div class="linea">
+        <div class="linea_interna"></div>
+    </div>
+    
+    <main class="principal">
+        <section class="seccion-1">
+            <article class="seccion__contenedor">
+                <div class="seccion__contenido">
+                    <!-- descripcion personal -->
+                    <div class="seccion__descripcion">
+                        <h1 class="seccion__titulo">Hola, mi nombre es <strong id="nombre"></strong>
+                        <br> y tengo una pasión por el desarrollo WEB</h1>
+                        <p class="seccion__sub-titulo">"Te invito a explorar mi portafolio y descubrir todas las habilidades que he ido fortaleciendo a lo largo del tiempo. Mi dedicación y esfuerzo se reflejan en el contenido que he creado, con el objetivo de brindarte la mejor experiencia y ser de gran ayuda en lo que estás buscando. Espero que disfrutes de mi trabajo y encuentres lo que necesitas." 😉😉</p>
+                    </div>
+                    <!-- Redes sociales -->
+                    <div class="seccion__redes-sociales">
+                        <ul>
+                            <li><a target="_blank" href="https://github.com/HernanDeveloper2001"><i class="fa-brands fa-github-alt"></i>Github</a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/hernandariocalvo/"><i class="fa-brands fa-linkedin"></i>Linkedin</a></li>
+                            <li><a href="#"><i class="fa-solid fa-file-contract"></i>Currículum</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="seccion__imagen-contenedor">
+                    <img class="imagen" src="img/hernan.jpg" alt="">
+                </div>
+            </article>
+        </section>
+        
+        <div class="linea">
+            <div class="linea_interna"></div>
+        </div>
+        
+        <!-- formación académica -->
+        <section class="seccion__formacion">
+            <h2 class="titulo__formacion">Formación académica</h2>
+            <article class="formacion__contenido">
+                <div class="formacion__contenido-certificados">
+                    <div class="certificados">
+                        <div class="certificados__imagen">
+                        </div>
+                        <div class="certificados__descripcion">
+                            <h3 class="certificados__titulo">HTML Y CSS</h3>
+                            <a class="certificados__link" href="./pdf/html y css.pdf" target="_blank">Ver certificación</a>
+                        </div>
+                    </div>
+                    <div class="certificados">
+                        <div class="certificados__imagen">
+                        </div>
+                        <div class="certificados__descripcion">
+                            <h3 class="certificados__titulo">Desarrollo personal</h3>
+                            <a class="certificados__link" href="./pdf/Formación - Alura.pdf" target="_blank">Ver certificación</a>
+                        </div>
+                    </div>
+                    <div class="certificados">
+                        <div class="certificados__imagen">
+                        </div>
+                        <div class="certificados__descripcion">
+                            <h3 class="certificados__titulo">Principiante en programacion</h3>
+                            <a class="certificados__link" href="./pdf/programacion- Alura.pdf" target="_blank">Ver certificación</a>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </article>
+        </section>
+        <div class="linea">
+            <div class="linea_interna"></div>
+        </div>
+
+        <!-- Contacto -->
+        <section class="seccion__contacto">
+            <article class="seccion__contacto-contenido">
+                <div class="seccion__contacto-imagen">
+                </div>
+
+                <section class="seccion-informacion">
+                    <div class="informacion__contacto">
+                        <h2 class="informacion__contacto-titulo">Contacto</h2>
+                        <span class="informacion__contacto-contactame">¿Quieres contactarme?</span>
+                        <p class="informacion__contacto-descripcion">Complete el siguiente formulario y estaré en contacto con usted lo más pronto posible.</p>
+                    </div>
+                    <div class="linea">
+                        <div class="linea_interna"></div>
+                    </div>
+                    <form class="formulario" action="#">
+                        <div class="container-inputs">
+                            <input class="formulario__datos-input" id="input-nombre" type="text" name="nombre" placeholder=" " required>
+                            <label for="nombre" class="formulario__datos-label"><span class="label__span" >Nombre</span></label>
+                        </div>
+    
+                        <div class="container-inputs">
+                            <input class="formulario__datos-input" id="input-email" type="email" name="email" required placeholder=" "> 
+                            <label for="email" class="formulario__datos-label"><span class="label__span">E-mail</span></label>
+                        </div>
+    
+                        <div class="container-inputs">
+                            <input class="formulario__datos-input" id="input-asunto type="text" name="asunto" placeholder=" " required>
+                            <label for="asunto" class="formulario__datos-label"><span class="label__span">Asunto</span></label>
+                        </div>
+        
+                        <textarea class="formulario__datos-textarea" name="Mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button class="formulario__boton" type="submit">Enviar mensaje</button>
+                        <p id="mensaje">Este mensaje se envio 👍</p>
+                        <p id="error">Rellena todos los campos</p>
+                    </form>
+                </section>
+            </article>
+        </section>
+        
+    </main>
+
+    <div class="linea">
+        <div class="linea_interna"></div>
+    </div>
+
+    <footer class="pie__pagina">
+        <h3 class="pie__parrafo">Portafolio desarrollado por <span id="creador">Hernán Darío Calvo Cornelio</span></h3>
+        <h4 class="pie__fecha">Fecha de creacion | 03/07/2023</h4>
+        <span id="pie__fecha-actual"></span>
+    </footer>
+
+    <script src="js/index.js"></script>
+    <script src="js/formulario.js"></script>
+</body>
+</html>

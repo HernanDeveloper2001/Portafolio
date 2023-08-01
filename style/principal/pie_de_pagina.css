@@ -1,0 +1,17 @@
+.pie__pagina {
+    background: #0c1319;
+    padding: 5rem 5rem;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pie__parrafo {
+    font-size: 1.5rem;
+}
+
+.pie__fecha {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 20px;
+}

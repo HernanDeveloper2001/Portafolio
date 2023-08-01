@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/normaize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/principal/header.css">
+    <link rel="stylesheet" href="./style/principal/presentacion.css">
+    <link rel="stylesheet" href="./style/habilidades/habilidades.css">
+    <link rel="stylesheet" href="./style/principal/pie_de_pagina.css">
+    <link rel="stylesheet" href="./style/proyectos/proyectos.css">
+    <link rel="stylesheet" href="./style/proyectos/background.css">
+
+</head>
+<body>
+
+    <!-- Cabezera -->
+    <header class="header">
+        <section class="header__container">
+            <div class="contacto">
+                <h1 class="contacto-titulo">Programador WEB</h1>
+                <p class="contacto-parrafo">Correo:<span>hernandariocalvo@gmail.com</span></p>
+            </div>
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>  
+                    <li><a href="sobre_mi.html">Sobre mi</a></li>
+                    <li><a href="habilidades.html">Habilidades</a></li>
+                    <li><a href="aficiones.html">Aficiones</a></li>
+                    <li><a href="proyectos.html"><span class="activo">Proyectos</span></a></li>  
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <div class="linea">
+        <div class="linea_interna"></div>
+    </div>
+
+    <!-- Contenido principal -->
+    <main class="principal">
+        <section class="seccion-1">
+            <article class="proyectos__contenido">
+                <h1 class="proyectos__titulo">Proyectos</h1>
+                <div class="proyectos__contenedor">
+                    <!-- Buscaminas -->
+                    <section class="proyectos_carta">
+                        <div class="contenedor-imagen">
+                            <img class="imagen" src="img/background/buscaminas.jpg" alt="buscaminas">
+                        </div>
+                        <section class="carta">
+                            <div class="carta-descripcion">
+                                <h3 class="carta-titulo">Buscaminas</h3>
+                                <p class="carta-parrafo">Buscaminas trabajado con python y tkinter</p>
+                            </div>
+                            <div class="contenedor-botones">
+                                <a href="https://github.com/HernanDeveloper2001/buscaminas-python" target="_blank" class="botones">Repositorio</a>
+                                <a href="#" target="_blank" class="botones">Ver demo</a>
+                            </div>
+                        </section>
+                    </section>
+                    <!-- Encriptador -->
+                    <section class="proyectos_carta">
+                        <div class="contenedor-imagen">
+                            <img class="imagen" src="img/background/encriptador.webp" alt="buscaminas">
+                        </div>
+                        <section class="carta">
+                            <div class="carta-descripcion">
+                                <h3 class="carta-titulo">Encriptador</h3>
+                                <p class="carta-parrafo">Encriptador trabajado con html, css y js</p>
+                            </div>
+                            <div class="contenedor-botones">
+                                <a href="https://github.com/HernanDeveloper2001/Encriptador-de-texto" target="_blank" class="botones">Repositorio</a>
+                                <a href="https://hernandeveloper2001.github.io/Encriptador-de-texto/" target="_blank" class="botones">Ver demo</a>
+                            </div>
+                        </section>
+                    </section>
+                    <!-- Ecommerce -->
+                    <section class="proyectos_carta">
+                        <div class="contenedor-imagen">
+                            <img class="imagen" src="img/background/e-commerce.svg" alt="buscaminas">
+                        </div>
+                        <section class="carta">
+                            <div class="carta-descripcion">
+                                <h3 class="carta-titulo">E-commerce</h3>
+                                <p class="carta-parrafo">E-commerce - carrito de compras</p>
+                            </div>
+                            <div class="contenedor-botones">
+                                <a href="https://github.com/HernanDeveloper2001/E-commerce-Alura" target="_blank" class="botones">Repositorio</a>
+                                <a href="https://hernandeveloper2001.github.io/Encriptador-de-texto/" target="_blank" class="botones">Ver demo</a>
+                            </div>
+                        </section>
+                    </section>
+
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <div class="linea">
+        <div class="linea_interna"></div>
+    </div>
+
+    <!-- Pie de pagina -->
+    <footer class="pie__pagina">
+        <h3 class="pie__parrafo">Portafolio desarrollado por <span id="creador">Hernán Darío Calvo Cornelio</span></h3>
+        <h4 class="pie__fecha">Fecha de creacion | 03/07/2023</h4>
+        <span id="pie__fecha-actual"></span>
+    </footer>
+
+    <script src="js/proyectos.js"></script>
+</body>
+</html>
